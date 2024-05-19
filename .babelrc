@@ -1,0 +1,31 @@
+{
+  "presets": [
+    {
+      "plugins": [
+        "./build/babelRelayPlugin"
+      ]
+    },
+    ["env", {
+      "loose": true
+    }],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    
+    [
+      "transform-runtime", 
+      {
+        "polyfill": false,
+        "regenerator": true
+      }
+    ],
+    ["relay", { "schema": "data/schema.graphql" }],
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+        "sportunity": "./"
+      }
+    }]
+  ]
+}

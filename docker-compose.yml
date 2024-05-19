@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  frontend-site:
+    restart: always
+    ports:
+      - 801:8080
+    build:
+      context: '.'
+    networks:
+      0frontend-site-network:
+
+networks:
+  0frontend-site-network:
+    driver: bridge

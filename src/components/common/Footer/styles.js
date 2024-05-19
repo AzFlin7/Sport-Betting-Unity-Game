@@ -1,0 +1,43 @@
+import { colors } from '../../../theme';
+
+export const styles = {
+  container: {
+    flex: 1,
+    // maxWidth: 1400,
+    width: '100%',
+    margin: 'auto',
+    display: 'flex',
+    alignItems: 'center',
+    height: 62,
+    backgroundColor: colors.blue,
+    boxShadow: '0 2px 4px 0 rgba(0,0,0,0.24)',
+    paddingLeft: 20,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    paddingRight: 20,
+    fontFamily: 'Lato',
+    color: colors.white,
+    fontSize: 16,
+  },
+  containerLogin: {
+    flex: 1,
+    // maxWidth: 1400,
+    margin: 'auto',
+    display: 'flex',
+    alignItems: 'center',
+    height: 62,
+    paddingLeft: 20,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    paddingRight: 20,
+    fontFamily: 'Lato',
+    color: colors.white,
+    fontSize: 16,
+    bottom: 0,
+    right: 0,
+    position: 'absolute',
+  },
+  input: {
+    fontSize: 16,
+  },
+}

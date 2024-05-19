@@ -1,0 +1,10 @@
+data/schema.graphql
+node_modules/*
+npm-debug.log
+.DS_Store
+package-lock.json
+upgrade/node_modules/*
+src/**/__generated__/
+src/**/*.graphql.js
+.idea
+/lib

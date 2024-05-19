@@ -1,0 +1,11 @@
+{
+  "mode": "PRODUCTION",
+  "backendUrl":"https://backendsportunity2017.com",
+  "backendUrlGraphql": "https://backendsportunity2017.com/graphql",
+  "appUrl": "https://sportunity.com",
+  "mangoPayUrl": "https://api.mangopay.com",
+  "mangoPayClientId": "rnqruqxdcdit69kz",
+  "appLinkAppStore": "https://itunes.apple.com/us/app/sportunity/id1180429589?l=fr&ls=1&mt=8",
+  "appLinkPlayStore": "https://play.google.com/store/apps/details?id=com.sportunity",
+  "blogUrlGraphql": "https://api.graphcms.com/relay/v1/sportunity0cms"
+}

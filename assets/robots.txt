@@ -1,0 +1,32 @@
+User-agent: Googlebot
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.svg$
+Disallow: /profile-view/
+Disallow: /event-view/
+Disallow: /circle/
+Allow: /
+
+User-agent: Bingbot
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.svg$
+Disallow: /profile-view/
+Disallow: /event-view/
+Disallow: /circle/
+Allow: /
+
+User-agent: Slurp
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.svg$
+Disallow: /profile-view/
+Disallow: /event-view/
+Disallow: /circle/
+Allow: /
